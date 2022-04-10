@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'ASHImageLoader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ASHImageLoader.'
+  s.summary          = 'This pod loads images in image view and cache them'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The purpose of this pod is to provide a cache solution to the images that are downloaded from data tasks
                        DESC
 
   s.homepage         = 'https://github.com/sheikhamais@gmail.com/ASHImageLoader'
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

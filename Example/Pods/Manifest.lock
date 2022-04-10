@@ -1,0 +1,16 @@
+PODS:
+  - ASHImageLoader (0.1.0)
+
+DEPENDENCIES:
+  - ASHImageLoader (from `../`)
+
+EXTERNAL SOURCES:
+  ASHImageLoader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASHImageLoader: 6524262ee4c4dc5d35112e8093d1982041ca1cd9
+
+PODFILE CHECKSUM: 8192e5a677a1e19a69b9aa83c1362ec9e683d7b4
+
+COCOAPODS: 1.11.2
