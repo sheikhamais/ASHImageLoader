@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASHImageLoader'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This pod loads images in image view and cache them'
   s.swift_version    = '5.0'
 
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 The purpose of this pod is to provide a cache solution to the images that are downloaded from data tasks
                        DESC
 
-  s.homepage         = 'https://github.com/sheikhamais@gmail.com/ASHImageLoader'
+  s.homepage         = 'https://github.com/sheikhamais/ASHImageLoader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sheikhamais@gmail.com' => 'amais.sheih@tangenttek.com' }
-  s.source           = { :git => 'https://github.com/sheikhamais@gmail.com/ASHImageLoader.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sheikhamais/ASHImageLoader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
