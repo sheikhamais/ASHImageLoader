@@ -13,7 +13,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        Test.testing()
         AnotherTestClass.printForTest()
+        ThisShouldBeReceived.testing()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

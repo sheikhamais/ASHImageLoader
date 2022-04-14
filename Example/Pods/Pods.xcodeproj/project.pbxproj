@@ -10,6 +10,8 @@
 		1215FAACE27E2B901118B88421980111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		34A37C7F28036EB9001BAD76 /* Some.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37C7E28036EB9001BAD76 /* Some.swift */; };
 		34A37CB52805F20C001BAD76 /* AnotherTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CB42805F20C001BAD76 /* AnotherTestClass.swift */; };
+		34A37CC028076954001BAD76 /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CBF28076954001BAD76 /* NewFile.swift */; };
+		34A37CC328076971001BAD76 /* SomeTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CC228076971001BAD76 /* SomeTestFile.swift */; };
 		3BD3BAEFB12C67245DD2430732914A8F /* ASHImageLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 945B25983EAD08758406CB361EE703F5 /* ASHImageLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EEFDF6723B68C4668C9B861FF895326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		63367F8B0D2DA49D73C3C7BE32854105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -48,6 +50,8 @@
 		2AF14588F73299A3C3E4E61F8365BAD1 /* ASHImageLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASHImageLoader-Info.plist"; sourceTree = "<group>"; };
 		34A37C7E28036EB9001BAD76 /* Some.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Some.swift; sourceTree = "<group>"; };
 		34A37CB42805F20C001BAD76 /* AnotherTestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherTestClass.swift; sourceTree = "<group>"; };
+		34A37CBF28076954001BAD76 /* NewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewFile.swift; path = ASHImageLoader/Classes/NewFile.swift; sourceTree = "<group>"; };
+		34A37CC228076971001BAD76 /* SomeTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeTestFile.swift; sourceTree = "<group>"; };
 		3730937259FB75083B04C340E1129873 /* Pods-ASHImageLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASHImageLoader_Tests.modulemap"; sourceTree = "<group>"; };
 		374A3EA5E273C9433A5466A581FE55D4 /* Pods-ASHImageLoader_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ASHImageLoader_Example"; path = Pods_ASHImageLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4A20E13745DBB8E0525FE8C152AEB7 /* ASHImageLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASHImageLoader-prefix.pch"; sourceTree = "<group>"; };
@@ -128,6 +132,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		34A37CC128076968001BAD76 /* All Data */ = {
+			isa = PBXGroup;
+			children = (
+				34A37CC228076971001BAD76 /* SomeTestFile.swift */,
+			);
+			name = "All Data";
+			path = "ASHImageLoader/Classes/All Data";
+			sourceTree = "<group>";
+		};
 		3D7A2091BD68ECB2BA91AABAF92171B0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +184,8 @@
 		BF4EF461024E71514FA5D8F6966348AD /* ASHImageLoader */ = {
 			isa = PBXGroup;
 			children = (
+				34A37CC128076968001BAD76 /* All Data */,
+				34A37CBF28076954001BAD76 /* NewFile.swift */,
 				34A37CB12805F1EF001BAD76 /* Classes */,
 				34A37C7E28036EB9001BAD76 /* Some.swift */,
 				B3C270E855189DEA465837D22A22A12D /* ReplaceMe.swift */,
@@ -398,6 +413,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A37CB52805F20C001BAD76 /* AnotherTestClass.swift in Sources */,
+				34A37CC328076971001BAD76 /* SomeTestFile.swift in Sources */,
+				34A37CC028076954001BAD76 /* NewFile.swift in Sources */,
 				34A37C7F28036EB9001BAD76 /* Some.swift in Sources */,
 				BA35ACEB8D68B025070D4A0DDBF8444B /* ASHImageLoader-dummy.m in Sources */,
 				66AF1ED41F0224A3D5B1C5B156C4FAB5 /* ReplaceMe.swift in Sources */,
