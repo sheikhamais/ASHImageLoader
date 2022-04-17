@@ -11,7 +11,7 @@
 		34A37CD4280B76AF001BAD76 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CD3280B76AF001BAD76 /* ImageCacheManager.swift */; };
 		34A37CD6280B76F1001BAD76 /* ExtensionUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CD5280B76F1001BAD76 /* ExtensionUIImageView.swift */; };
 		34A37CE0280C13A2001BAD76 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A37CDF280C13A2001BAD76 /* ImageAssets.xcassets */; };
-		34A37CE8280C246C001BAD76 /* ASHImageAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CE7280C246C001BAD76 /* ASHImageAssetsManager.swift */; };
+		34A37CEF280C2C13001BAD76 /* ASHImageAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CEE280C2C13001BAD76 /* ASHImageAssetsManager.swift */; };
 		3BD3BAEFB12C67245DD2430732914A8F /* ASHImageLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 945B25983EAD08758406CB361EE703F5 /* ASHImageLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EEFDF6723B68C4668C9B861FF895326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		63367F8B0D2DA49D73C3C7BE32854105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -50,7 +50,7 @@
 		34A37CD3280B76AF001BAD76 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
 		34A37CD5280B76F1001BAD76 /* ExtensionUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImageView.swift; sourceTree = "<group>"; };
 		34A37CDF280C13A2001BAD76 /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssets.xcassets; sourceTree = "<group>"; };
-		34A37CE7280C246C001BAD76 /* ASHImageAssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASHImageAssetsManager.swift; sourceTree = "<group>"; };
+		34A37CEE280C2C13001BAD76 /* ASHImageAssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASHImageAssetsManager.swift; sourceTree = "<group>"; };
 		3730937259FB75083B04C340E1129873 /* Pods-ASHImageLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASHImageLoader_Tests.modulemap"; sourceTree = "<group>"; };
 		374A3EA5E273C9433A5466A581FE55D4 /* Pods-ASHImageLoader_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ASHImageLoader_Example"; path = Pods_ASHImageLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4A20E13745DBB8E0525FE8C152AEB7 /* ASHImageLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASHImageLoader-prefix.pch"; sourceTree = "<group>"; };
@@ -125,22 +125,22 @@
 		34A37CC128076968001BAD76 /* All Data */ = {
 			isa = PBXGroup;
 			children = (
+				34A37CED280C2C02001BAD76 /* Assets Manager */,
 				34A37CEA280C24A3001BAD76 /* Extension UIImageView */,
 				34A37CE9280C249B001BAD76 /* Cache Manager */,
-				34A37CDE280C132F001BAD76 /* Assets + Manager */,
+				34A37CDE280C132F001BAD76 /* Assets */,
 			);
 			name = "All Data";
 			path = "ASHImageLoader/Classes/All Data";
 			sourceTree = "<group>";
 		};
-		34A37CDE280C132F001BAD76 /* Assets + Manager */ = {
+		34A37CDE280C132F001BAD76 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
 				34A37CDF280C13A2001BAD76 /* ImageAssets.xcassets */,
-				34A37CE7280C246C001BAD76 /* ASHImageAssetsManager.swift */,
 			);
-			name = "Assets + Manager";
-			path = "../../Assets/Assets + Manager";
+			name = Assets;
+			path = ../../Assets/Assets;
 			sourceTree = "<group>";
 		};
 		34A37CE9280C249B001BAD76 /* Cache Manager */ = {
@@ -157,6 +157,14 @@
 				34A37CD5280B76F1001BAD76 /* ExtensionUIImageView.swift */,
 			);
 			path = "Extension UIImageView";
+			sourceTree = "<group>";
+		};
+		34A37CED280C2C02001BAD76 /* Assets Manager */ = {
+			isa = PBXGroup;
+			children = (
+				34A37CEE280C2C13001BAD76 /* ASHImageAssetsManager.swift */,
+			);
+			path = "Assets Manager";
 			sourceTree = "<group>";
 		};
 		3D7A2091BD68ECB2BA91AABAF92171B0 /* Targets Support Files */ = {
@@ -435,7 +443,7 @@
 				BA35ACEB8D68B025070D4A0DDBF8444B /* ASHImageLoader-dummy.m in Sources */,
 				34A37CD6280B76F1001BAD76 /* ExtensionUIImageView.swift in Sources */,
 				34A37CD4280B76AF001BAD76 /* ImageCacheManager.swift in Sources */,
-				34A37CE8280C246C001BAD76 /* ASHImageAssetsManager.swift in Sources */,
+				34A37CEF280C2C13001BAD76 /* ASHImageAssetsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

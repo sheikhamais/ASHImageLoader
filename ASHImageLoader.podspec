@@ -54,7 +54,7 @@ image.loadImage(fromUrl: imageUrl, placeholderImage: myPlaceholderImage)
   
 #  s.resources = 'ASHImageLoader/Assets/**'
   s.resource_bundles = {
-    'ASHImageLoader' => ['ASHImageLoader/Assets/*.xcassets']
+    'ASHImageLoader' => ['ASHImageLoader/Assets/**']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
