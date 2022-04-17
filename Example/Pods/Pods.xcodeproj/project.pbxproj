@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1215FAACE27E2B901118B88421980111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		34A37C7F28036EB9001BAD76 /* Some.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37C7E28036EB9001BAD76 /* Some.swift */; };
-		34A37CB52805F20C001BAD76 /* AnotherTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CB42805F20C001BAD76 /* AnotherTestClass.swift */; };
-		34A37CC028076954001BAD76 /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CBF28076954001BAD76 /* NewFile.swift */; };
-		34A37CC328076971001BAD76 /* SomeTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CC228076971001BAD76 /* SomeTestFile.swift */; };
+		34A37CD4280B76AF001BAD76 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CD3280B76AF001BAD76 /* ImageCacheManager.swift */; };
+		34A37CD6280B76F1001BAD76 /* ExtensionUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CD5280B76F1001BAD76 /* ExtensionUIImageView.swift */; };
+		34A37CE0280C13A2001BAD76 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A37CDF280C13A2001BAD76 /* ImageAssets.xcassets */; };
+		34A37CE8280C246C001BAD76 /* ASHImageAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CE7280C246C001BAD76 /* ASHImageAssetsManager.swift */; };
 		3BD3BAEFB12C67245DD2430732914A8F /* ASHImageLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 945B25983EAD08758406CB361EE703F5 /* ASHImageLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EEFDF6723B68C4668C9B861FF895326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		63367F8B0D2DA49D73C3C7BE32854105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		66AF1ED41F0224A3D5B1C5B156C4FAB5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C270E855189DEA465837D22A22A12D /* ReplaceMe.swift */; };
 		8263A2FE874BAECC35746E5F27E9512B /* Pods-ASHImageLoader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C799F7C60988546C05A45EC57B4DB /* Pods-ASHImageLoader_Tests-dummy.m */; };
 		8E77D75D42B7E08ED9DAC936D2665693 /* Pods-ASHImageLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D79CF6D5A23DD89D688FEEA39AD0DABC /* Pods-ASHImageLoader_Example-dummy.m */; };
 		9CBC5CD4371C78867068BB3163681B43 /* Pods-ASHImageLoader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A826CEF7F1E2522ABFEBFBAC8CB744AF /* Pods-ASHImageLoader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,10 +47,10 @@
 		261E36E460AD8F5CCF4683137376FE95 /* Pods-ASHImageLoader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASHImageLoader_Example-Info.plist"; sourceTree = "<group>"; };
 		27B71047515544934C13CC76632B2D7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AF14588F73299A3C3E4E61F8365BAD1 /* ASHImageLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ASHImageLoader-Info.plist"; sourceTree = "<group>"; };
-		34A37C7E28036EB9001BAD76 /* Some.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Some.swift; sourceTree = "<group>"; };
-		34A37CB42805F20C001BAD76 /* AnotherTestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherTestClass.swift; sourceTree = "<group>"; };
-		34A37CBF28076954001BAD76 /* NewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewFile.swift; path = ASHImageLoader/Classes/NewFile.swift; sourceTree = "<group>"; };
-		34A37CC228076971001BAD76 /* SomeTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeTestFile.swift; sourceTree = "<group>"; };
+		34A37CD3280B76AF001BAD76 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		34A37CD5280B76F1001BAD76 /* ExtensionUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImageView.swift; sourceTree = "<group>"; };
+		34A37CDF280C13A2001BAD76 /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssets.xcassets; sourceTree = "<group>"; };
+		34A37CE7280C246C001BAD76 /* ASHImageAssetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASHImageAssetsManager.swift; sourceTree = "<group>"; };
 		3730937259FB75083B04C340E1129873 /* Pods-ASHImageLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASHImageLoader_Tests.modulemap"; sourceTree = "<group>"; };
 		374A3EA5E273C9433A5466A581FE55D4 /* Pods-ASHImageLoader_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ASHImageLoader_Example"; path = Pods_ASHImageLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4A20E13745DBB8E0525FE8C152AEB7 /* ASHImageLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASHImageLoader-prefix.pch"; sourceTree = "<group>"; };
@@ -60,7 +59,7 @@
 		7113A37696A41430980021D9AA7B8994 /* Pods-ASHImageLoader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASHImageLoader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79C20A8F4A8EB5756E2C9E95E9ABB035 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7EA3C718449E5E48A625F111A45990F3 /* ASHImageLoader */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASHImageLoader; path = ASHImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA3C718449E5E48A625F111A45990F3 /* ASHImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASHImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6C006E6E419A55AFDA3CCB9BAF7DCB /* Pods-ASHImageLoader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASHImageLoader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F6C8B1273896753DB40F24EDC3A0288 /* Pods-ASHImageLoader_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASHImageLoader_Tests-Info.plist"; sourceTree = "<group>"; };
 		945B25983EAD08758406CB361EE703F5 /* ASHImageLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASHImageLoader-umbrella.h"; sourceTree = "<group>"; };
@@ -68,7 +67,6 @@
 		A67035A4DAABD8AD2AB438710EAD4A77 /* Pods-ASHImageLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASHImageLoader_Example-umbrella.h"; sourceTree = "<group>"; };
 		A826CEF7F1E2522ABFEBFBAC8CB744AF /* Pods-ASHImageLoader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASHImageLoader_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B13779E9B09290866796C27C6628C1AB /* ASHImageLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASHImageLoader-dummy.m"; sourceTree = "<group>"; };
-		B3C270E855189DEA465837D22A22A12D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ASHImageLoader/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C685D32843F18629A0914B24331A9726 /* Pods-ASHImageLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASHImageLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D79CF6D5A23DD89D688FEEA39AD0DABC /* Pods-ASHImageLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASHImageLoader_Example-dummy.m"; sourceTree = "<group>"; };
 		D8975239DE0870BFA44C939F202AFD97 /* ASHImageLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASHImageLoader.debug.xcconfig; sourceTree = "<group>"; };
@@ -124,21 +122,41 @@
 			path = "Target Support Files/Pods-ASHImageLoader_Tests";
 			sourceTree = "<group>";
 		};
-		34A37CB12805F1EF001BAD76 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				34A37CB42805F20C001BAD76 /* AnotherTestClass.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		34A37CC128076968001BAD76 /* All Data */ = {
 			isa = PBXGroup;
 			children = (
-				34A37CC228076971001BAD76 /* SomeTestFile.swift */,
+				34A37CEA280C24A3001BAD76 /* Extension UIImageView */,
+				34A37CE9280C249B001BAD76 /* Cache Manager */,
+				34A37CDE280C132F001BAD76 /* Assets + Manager */,
 			);
 			name = "All Data";
 			path = "ASHImageLoader/Classes/All Data";
+			sourceTree = "<group>";
+		};
+		34A37CDE280C132F001BAD76 /* Assets + Manager */ = {
+			isa = PBXGroup;
+			children = (
+				34A37CDF280C13A2001BAD76 /* ImageAssets.xcassets */,
+				34A37CE7280C246C001BAD76 /* ASHImageAssetsManager.swift */,
+			);
+			name = "Assets + Manager";
+			path = "../../Assets/Assets + Manager";
+			sourceTree = "<group>";
+		};
+		34A37CE9280C249B001BAD76 /* Cache Manager */ = {
+			isa = PBXGroup;
+			children = (
+				34A37CD3280B76AF001BAD76 /* ImageCacheManager.swift */,
+			);
+			path = "Cache Manager";
+			sourceTree = "<group>";
+		};
+		34A37CEA280C24A3001BAD76 /* Extension UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				34A37CD5280B76F1001BAD76 /* ExtensionUIImageView.swift */,
+			);
+			path = "Extension UIImageView";
 			sourceTree = "<group>";
 		};
 		3D7A2091BD68ECB2BA91AABAF92171B0 /* Targets Support Files */ = {
@@ -185,10 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				34A37CC128076968001BAD76 /* All Data */,
-				34A37CBF28076954001BAD76 /* NewFile.swift */,
-				34A37CB12805F1EF001BAD76 /* Classes */,
-				34A37C7E28036EB9001BAD76 /* Some.swift */,
-				B3C270E855189DEA465837D22A22A12D /* ReplaceMe.swift */,
 				C4246EA0B2C1177B426E2DAB3C46EA4F /* Pod */,
 				7D23383BF3E8232DF86C6DB560431B68 /* Support Files */,
 			);
@@ -209,7 +223,7 @@
 		CC4284B055E16E0CB43BBA9C0AC994E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EA3C718449E5E48A625F111A45990F3 /* ASHImageLoader */,
+				7EA3C718449E5E48A625F111A45990F3 /* ASHImageLoader.framework */,
 				374A3EA5E273C9433A5466A581FE55D4 /* Pods-ASHImageLoader_Example */,
 				F50D7197B03CF3357CF69FF7F2D5702E /* Pods-ASHImageLoader_Tests */,
 			);
@@ -335,7 +349,7 @@
 			);
 			name = ASHImageLoader;
 			productName = ASHImageLoader;
-			productReference = 7EA3C718449E5E48A625F111A45990F3 /* ASHImageLoader */;
+			productReference = 7EA3C718449E5E48A625F111A45990F3 /* ASHImageLoader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,6 +360,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F8D737C9467A702DCD492EE663122937 = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -372,6 +391,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A37CE0280C13A2001BAD76 /* ImageAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,12 +432,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34A37CB52805F20C001BAD76 /* AnotherTestClass.swift in Sources */,
-				34A37CC328076971001BAD76 /* SomeTestFile.swift in Sources */,
-				34A37CC028076954001BAD76 /* NewFile.swift in Sources */,
-				34A37C7F28036EB9001BAD76 /* Some.swift in Sources */,
 				BA35ACEB8D68B025070D4A0DDBF8444B /* ASHImageLoader-dummy.m in Sources */,
-				66AF1ED41F0224A3D5B1C5B156C4FAB5 /* ReplaceMe.swift in Sources */,
+				34A37CD6280B76F1001BAD76 /* ExtensionUIImageView.swift in Sources */,
+				34A37CD4280B76AF001BAD76 /* ImageCacheManager.swift in Sources */,
+				34A37CE8280C246C001BAD76 /* ASHImageAssetsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D5811B61F5AD3AF9C12884409BC0910 /* ASHImageLoader.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -731,6 +750,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8975239DE0870BFA44C939F202AFD97 /* ASHImageLoader.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -750,6 +770,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

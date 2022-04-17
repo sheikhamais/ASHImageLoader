@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASHImageLoader'
-  s.version          = '0.1.2'
-  s.summary          = 'This pod loads images in image view and cache them'
+  s.version          = '1.0.0'
+  s.summary          = 'This pod loads images into the image view and cache them'
   s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-The purpose of this pod is to provide a cache solution to the images that are downloaded from data tasks
+The is a lightweight pod that provides a caching solution to the images that are downloaded from url for efficient performance.
+The usage is quite simple:
+
+Step 1: //in your file
+import ASHImageLoader
+
+Step 2: //can be used in following ways:
+
+let imageUrl = "https://myImageUrl"
+let myPlaceholderImage = UIImage(named: "myPlaceholderImage")
+
+UIImageView(url: imageUrl)
+UIImageView(url: imageUrl, placeholderImage: myPlaceholderImage)
+
+&
+
+let image = UIImage()
+
+image.loadImage(fromUrl: imageUrl)
+image.loadImage(fromUrl: imageUrl, placeholderImage: myPlaceholderImage)
                        DESC
 
   s.homepage         = 'https://github.com/sheikhamais/ASHImageLoader'
@@ -33,9 +52,10 @@ The purpose of this pod is to provide a cache solution to the images that are do
 
   s.source_files = 'ASHImageLoader/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ASHImageLoader' => ['ASHImageLoader/Assets/*.png']
-  # }
+#  s.resources = 'ASHImageLoader/Assets/**'
+  s.resource_bundles = {
+    'ASHImageLoader' => ['ASHImageLoader/Assets/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
