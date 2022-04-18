@@ -44,7 +44,7 @@ image.loadImage(fromUrl: imageUrl, placeholderImage: myPlaceholderImage)
   s.homepage         = 'https://github.com/sheikhamais/ASHImageLoader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sheikhamais@gmail.com' => 'amais.sheih@tangenttek.com' }
+  s.author           = { 'Amais Sheikh' => 'sheikhamais@gmail.com' }
   s.source           = { :git => 'https://github.com/sheikhamais/ASHImageLoader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
