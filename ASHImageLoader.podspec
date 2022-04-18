@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASHImageLoader'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'This pod loads images into the image view and cache them'
   s.swift_version    = '5.0'
 
