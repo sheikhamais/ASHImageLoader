@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/ASHImageLoader.svg?style=flat)](https://cocoapods.org/pods/ASHImageLoader)
 [![Platform](https://img.shields.io/cocoapods/p/ASHImageLoader.svg?style=flat)](https://cocoapods.org/pods/ASHImageLoader)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+Requires iOS >= 9
+
 
 ## Installation
 
@@ -20,9 +20,39 @@ it, simply add the following line to your Podfile:
 pod 'ASHImageLoader'
 ```
 
+## Usage
+
+To use this pod:
+
+### Step 1:
+#### import ASHImageLoader
+
+### Step 2:
+//use in following ways:
+
+let image = UIImage()\
+let imageUrl = "https://myImageUrl" \
+let myPlaceholderImage = UIImage(named: "myPlaceholderImage")\
+
+## (1)
+### UIImageView(url: imageUrl)
+### UIImageView(url: imageUrl, placeholderImage: myPlaceholderImage)
+
+## (2)
+### image.loadImage(fromUrl: imageUrl)
+### image.loadImage(fromUrl: imageUrl, placeholderImage: myPlaceholderImage)
+
+
+## Description
+
+The is a lightweight pod that provides a caching solution to the images that are downloaded from url for efficient performance.
+
+
 ## Author
 
-sheikhamais@gmail.com, amais.sheih@tangenttek.com
+Amais Sheikh \
+sheikhamais@gmail.com
+
 
 ## License
 
