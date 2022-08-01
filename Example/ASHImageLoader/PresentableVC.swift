@@ -36,8 +36,8 @@ class PresentableVC: UIViewController
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-//        let imageUrl = "https://i.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
-            let imageUrl = "asdf"
+        let imageUrl = "https://i.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0"
+//            let imageUrl = "asdf"
         
         let obj = UIImageView(url: imageUrl)//, placeholderImage: UIImage(named: "cancel"))
 //        obj.loadImage(fromUrl: imageUrl, placeholderImage: UIImage(named: "cancel"))

@@ -45,12 +45,15 @@ extension UIImageView
     //MARK:- Internal functionality
     private func setImageFromUrl(fromUrl url: String, placeholderImage: UIImage?)
     {
-        self.setImage(image: placeholderImage)
-        ImageCacheManager.shared.getImage(fromUrl: url)
-        { image in
-            if let image = image
-            {
-                self.setImage(image: image)
+        DispatchQueue.global(qos: .default).async
+        {
+            self.setImage(image: placeholderImage)
+            ImageCacheManager.shared.getImage(fromUrl: url)
+            { image in
+                if let image = image
+                {
+                    self.setImage(image: image)
+                }
             }
         }
     }
